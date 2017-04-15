@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Marcos Mena</title>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans|Share+Tech+Mono" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+
+<body class="">
+    <div class="container">
+        <div class="page-header">
+            <h1 style="text-align: center;font-size:60px;font-weight: bold;margin-bottom: 0px">Marcos Mena</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="demo-gallery">
+                    <ul id="lightgallery" class="list-unstyled row">
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1.jpg 800" data-src="img/1-1600.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                            <div>
+                                <a href="">
+                                    <figure class="stack stack-randomrot">
+                                        <img src="/StackEffects/img/3.png" alt="img03" />
+                                        <img src="/StackEffects/img/2.png" alt="img02" />
+                                        <img src="/StackEffects/img/1.png" alt="img01" />
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="col-sub">
+                                Hand Drawings
+                            </div>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/2-375.jpg 375, img/2-480.jpg 480, img/2.jpg 800" data-src="img/2-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                            <div>
+                                <a href="">
+                                    <figure class="stack stack-randomrot2">
+                                        <img src="/StackEffects/img/1.png" alt="img01" />
+                                        <img src="/StackEffects/img/2.png" alt="img02" />
+                                        <img src="/StackEffects/img/3.png" alt="img03" />
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="col-sub">
+                                Digital Drawings
+                            </div>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/13-375.jpg 375, img/13-480.jpg 480, img/13.jpg 800" data-src="img/13-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                            <div>
+                                <a href="">
+                                    <figure class="stack stack-randomrot">
+                                        <img src="/StackEffects/img/2.png" alt="img02" />
+                                        <img src="/StackEffects/img/3.png" alt="img03" />
+                                        <img src="/StackEffects/img/1.png" alt="img01" />
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="col-sub">
+                                3D Modelling
+                            </div>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800" data-src="img/4-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                            <div>
+                                <a href="">
+                                    <figure class="stack stack-randomrot2">
+                                        <img src="/StackEffects/img/1.png" alt="img01" />
+                                        <img src="/StackEffects/img/2.png" alt="img02" />
+                                        <img src="/StackEffects/img/3.png" alt="img03" />
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="col-sub">
+                                Game Design
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="
+    background-color: black;
+    color: white;
+    margin: 0;
+    width: 100%;
+">
+        <div class="container" style="
+    background-color: black;
+    color: white;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+     background-image: url(/space20.png); 
+    background-color: black;
+    /* opacity: 0.2; */
+">
+            <div class="page-header" style="border-bottom: none">
+                <h1 style="text-align: center;margin-bottom: 0px;">Contact</h1>
+            </div>
+            <div class="row" style="text-align: left;width:200px;margin:0 auto">
+                <div><i class="fa fa-envelope" aria-hidden="true"></i> mmenabox@outlook.com</div>
+                <div><i class="fa fa-phone" aria-hidden="true"></i> +1 (849) 915-4420</div>
+                <div><a href="https://twitter.com/mmenatwt"><i class="fa fa-twitter" aria-hidden="true"></i> mmenatwt</a></div>
+                <div><a href="https://www.instagram.com/mmenaig/"><i class="fa fa-facebook" aria-hidden="true"></i> mmenaig</a></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(function() {
+        var t = 250;
+        var step = 250;
+        $('.stack-randomrot,.stack-randomrot2').each(function() {
+            var self = this;
+            setTimeout(function() {
+                $(self).addClass('active');
+            }, t);
+            t += step;
+        });
+
+    });
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
