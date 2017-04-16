@@ -1,5 +1,36 @@
 body {
-    font-family: 'Cutive Mono', monospace;
+    font-family: 'Proxima Nova';
+}
+
+.img-gallery {
+    width: 100%;
+}
+
+#test-popup img {
+    width: 25%;
+    float:left;
+    padding: 5px;
+}
+
+a, a:active, a:focus {outline : none;}
+
+a:active img, a:focus img {outline : none;}
+
+a:active img, a:focus img  {border : 0;}
+
+a img {
+    border: 0 !important;
+}
+
+a:active,
+a:focus, {
+  outline:0 !important;
+  border:none;
+  -moz-outline-style: none;
+}
+
+.img-gallery-container {
+    height: 200px;
 }
 
 .col-sub {
@@ -510,4 +541,37 @@ body {
 
 #lightgallery li {
     padding: 30px !important;
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px 30px;
+  width: auto;
+  max-width: 1024px;
+  margin: 20px auto;
+}
+
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  /* ideally, transition speed should match zoom duration */
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0;
 }

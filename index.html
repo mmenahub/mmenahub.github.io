@@ -8,23 +8,47 @@
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans|Share+Tech+Mono" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link href="hover.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
     <!-- Magnific Popup core CSS file -->
-<link rel="stylesheet" href="mpopup/magnific-popup.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="mpopup/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.min.css">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 </head>
 
 <body class="">
+    <div id="test-popup" class="white-popup mfp-hide">
+        <div class="page-header" style="font-size: 30px">
+            Hand Drawings
+        </div>
+        <div class="grid zoom-gallery" style="margin: -5px">
+            <a href="http://www.planwallpaper.com/static/images/canberra_hero_image_JiMVvYU.jpg" class="image-link" data-fancybox="images">
+               <img src="http://www.planwallpaper.com/static/images/canberra_hero_image_JiMVvYU.jpg" />
+            </a>
+            <a href="http://www.planwallpaper.com/static/images/beautiful-sunset-images-196063.jpg" class="image-link" data-fancybox="images">
+               <img src="http://www.planwallpaper.com/static/images/beautiful-sunset-images-196063.jpg" alt="img01" />
+            </a>
+            <a href="http://www.planwallpaper.com/static/images/canberra_hero_image_JiMVvYU.jpg" class="image-link" data-fancybox="images"> 
+               <img src="http://www.planwallpaper.com/static/images/canberra_hero_image_JiMVvYU.jpg" />
+            </a>
+
+            <div style="clear:both"></div>
+        </div>
+    </div>
     <div class="container">
         <div class="page-header">
-            <h1 style="text-align: center;font-size:60px;font-weight: bold;margin-bottom: 0px">Marcos Mena</h1>
+            <h1 style="text-align: center;font-size:60px;font-weight: 300;margin-bottom: 0px">Marcos Mena</h1>
         </div>
         <div class="row">
             <div class="col-md-12">
                 <div class="demo-gallery">
                     <ul id="lightgallery" class="list-unstyled row">
-                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1.jpg 800" data-src="img/1-1600.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                            <div>
-                                <a id="hand-drawings" class="img-gallery" href="#">
+                        <li class="col-xs-6 col-sm-4 col-md-3">
+                            <div class="img-gallery-container">
+                                <a id="hand-drawings" style="width:100%" class="hvr-grow open-popup-link" href="#test-popup">
                                     <figure class="stack stack-randomrot">
                                         <img src="http://www.planwallpaper.com/static/images/canberra_hero_image_JiMVvYU.jpg" alt="img03" />
                                         <img src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg" alt="img02" />
@@ -36,23 +60,23 @@
                                 Hand Drawings
                             </div>
                         </li>
-                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/2-375.jpg 375, img/2-480.jpg 480, img/2.jpg 800" data-src="img/2-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                            <div>
-                                <a id="digital-drawings" class="img-gallery" href="#">
-                                    <figure class="stack stack-randomrot2">
-                                        <img src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg" alt="img01" />
-                                        <img src="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg" alt="img02" />
-                                        <img src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg" alt="img03" />
+                        <li class="col-xs-6 col-sm-4 col-md-3">
+                            <div class="img-gallery-container">
+                                <a id="digital-drawings" class="img-gallery hvr-grow" " href="# ">
+                                    <figure class="stack stack-randomrot2 ">
+                                        <img src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg " alt="img01 " />
+                                        <img src="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg " alt="img02 " />
+                                        <img src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg " alt="img03 " />
                                     </figure>
                                 </a>
                             </div>
-                            <div class="col-sub">
+                            <div class="col-sub ">
                                 Digital Drawings
                             </div>
                         </li>
-                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/13-375.jpg 375, img/13-480.jpg 480, img/13.jpg 800" data-src="img/13-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                            <div>
-                                <a id="modelling" class="img-gallery" href="#">
+                        <li class="col-xs-6 col-sm-4 col-md-3 ">
+                            <div class="img-gallery-container ">
+                                <a id="modelling " class="img-gallery hvr-grow "" href="#">
                                     <figure class="stack stack-randomrot">
                                         <img src="http://static3.businessinsider.com/image/58dbde7c77bb7050008b4ae9-1190-625/nasas-1-billion-jupiter-probe-just-sent-back-breathtaking-new-images-of-the-gas-giant.jpg" alt="img02" />
                                         <img src="http://www.freedigitalphotos.net/images/img/homepage/87357.jpg" alt="img03" />
@@ -64,17 +88,17 @@
                                 3D Modelling
                             </div>
                         </li>
-                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800" data-src="img/4-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                            <div>
-                                <a id="game-design" class="img-gallery" href="#">
-                                    <figure class="stack stack-randomrot2">
-                                        <img src="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_b.jpg" alt="img01" />
-                                        <img src="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_b.jpg" alt="img02" />
-                                        <img src="http://i.dailymail.co.uk/i/pix/2016/09/06/11/37F60FD200000578-0-image-a-5_1473156426673.jpg" alt="img03" />
+                        <li class="col-xs-6 col-sm-4 col-md-3">
+                            <div class="img-gallery-container">
+                                <a id="game-design" class="img-gallery hvr-grow" " href="# ">
+                                    <figure class="stack stack-randomrot2 ">
+                                        <img src="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_b.jpg " alt="img01 " />
+                                        <img src="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_b.jpg " alt="img02 " />
+                                        <img src="http://i.dailymail.co.uk/i/pix/2016/09/06/11/37F60FD200000578-0-image-a-5_1473156426673.jpg " alt="img03 " />
                                     </figure>
                                 </a>
                             </div>
-                            <div class="col-sub">
+                            <div class="col-sub ">
                                 Game Design
                             </div>
                         </li>
@@ -83,37 +107,25 @@
             </div>
         </div>
     </div>
-    <div style="
-    background-color: black;
-    color: white;
-    margin: 0;
-    width: 100%;
-">
-        <div class="container" style="
-    background-color: black;
-    color: white;
-    margin: 0;
-    width: 100%;
-    height: 500px;
-     background-image: url(/img/space20.png); 
-    background-color: black;
-    /* opacity: 0.2; */
-">
-            <div class="page-header" style="border-bottom: none">
-                <h1 style="text-align: center;margin-bottom: 0px;">Contact</h1>
+    <div style=" background-color: black; color: white; margin: 0; width: 100%; ">
+        <div class="container " style=" background-color: black; color: white; margin: 0; width: 100%; height: 500px; background-image: url(/img/space20.png); background-color: black; /* opacity: 0.2; */ ">
+            <div class="page-header " style="border-bottom: none ">
+                <h1 style="text-align: center;margin-bottom: 0px; ">Contact</h1>
             </div>
-            <div class="row" style="text-align: left;width:200px;margin:0 auto">
-                <div><i class="fa fa-envelope" aria-hidden="true"></i> mmenabox@outlook.com</div>
-                <div><i class="fa fa-phone" aria-hidden="true"></i> +1 (849) 915-4420</div>
-                <div><a href="https://twitter.com/mmenatwt"><i class="fa fa-twitter" aria-hidden="true"></i> mmenatwt</a></div>
-                <div><a href="https://www.instagram.com/mmenaig/"><i class="fa fa-facebook" aria-hidden="true"></i> mmenaig</a></div>
+            <div class="row " style="text-align: left;width:200px;margin:0 auto ">
+                <div><i class="fa fa-envelope " aria-hidden="true "></i> mmenabox@outlook.com</div>
+                <div><i class="fa fa-phone " aria-hidden="true "></i> +1 (849) 915-4420</div>
+                <div><a href="https://twitter.com/mmenatwt "><i class="fa fa-twitter " aria-hidden="true "></i> mmenatwt</a></div>
+                <div><a href="https://www.instagram.com/mmenaig/ "><i class="fa fa-facebook " aria-hidden="true "></i> mmenaig</a></div>
             </div>
         </div>
     </div>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="fancybox/jquery.fancybox.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
     <!-- Magnific Popup core JS file -->
-    <script src="mpopup/jquery.magnific-popup.js"></script>
-    <script type="text/javascript">
+    <script src="mpopup/jquery.magnific-popup.js "></script>
+    <script type="text/javascript ">
     $(function() {
         var t = 250;
         var step = 250;
@@ -125,22 +137,45 @@
             t += step;
         });
 
-        $('a.img-gallery').each(function(){
-            var self = this;
-            var items = $(this).find('img').map(function(){
-                return {
-                    'src': this.src
-                }
-            }).get().reverse();
-            $(this).magnificPopup({
-                items: items,
-                gallery: {
-                  enabled: true
-                },
-                type: 'image' // this is a default type
-            });
-
+        $('.open-popup-link').magnificPopup({
+          type:'inline',
+          midClick: true,
+          callbacks: {
+            open: function() {
+              this.content.find('.grid').masonry({
+                  itemSelector: 'img'
+                });
+              // $(this.content).fancybox();
+              return;
+            },
+            close: function() {
+              // Will fire when popup is closed
+            }
+            // e.t.c.
+          }
         });
+
+        // $('.white-popup .grid').masonry({
+        //   itemSelector: 'img'
+        // });
+
+        // $('a.img-gallery').each(function(){
+        //     var self = this;
+        //     var items = $(this).find('img').map(function(){
+        //         return {
+        //             'src': this.src
+        //         }
+        //     }).get().reverse();
+        //     $(this).magnificPopup({
+        //         items: items,
+        //         gallery: {
+        //           enabled: true,
+        //           preload: [1,3]
+        //         },
+        //         type: 'image' // this is a default type
+        //     });
+
+        // });
 
     });
     </script>
