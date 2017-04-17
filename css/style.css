@@ -6,7 +6,7 @@ body {
     width: 100%;
 }
 
-#test-popup img {
+.white-popup img {
     width: 25%;
     float:left;
     padding: 5px;
@@ -548,7 +548,8 @@ a:focus, {
   background: #FFF;
   padding: 20px 30px;
   width: auto;
-  max-width: 1024px;
+  /*max-width: 1024px;*/
+  max-width: 90%;
   margin: 20px auto;
 }
 
